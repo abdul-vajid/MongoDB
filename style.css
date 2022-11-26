@@ -1,0 +1,924 @@
+/*-----------------------------------------------------Body-------------------------------------------------*/
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------------------Header-----------------------------------------------------*/
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #116149;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.header button{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: transparent;
+}
+
+.header button a{
+    text-decoration: none;
+    color: white;
+}
+
+.header p{
+    padding-left: 20px;
+    color: white;
+}
+
+/*-----------------------------------------------------Navbar-----------------------------------------------------*/
+
+nav{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    margin-top: 40px;
+    border-bottom: 1px solid #023430;
+    z-index: 10;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.navtabs{
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.signintext{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+
+.tryfreebtn{
+    width: 120px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00ED64;
+    margin-top: 10px;
+
+}
+
+.tryfreebtn:hover{
+    border-radius: 30px;
+}
+
+.tryfreetxt{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*--------------------------------------------------------------Home------------------------------------------------*/
+
+.homesection{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.green1{
+    width: 100%;
+    height: 400px;
+    border-bottom-right-radius: 200px;
+    background-color: #023430;
+}
+.green2{
+    width: 70%;
+    height: 400px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    background-color: #023430;
+    float: left;
+}
+.green3{
+    width: 25% ;
+    height: 400px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    background-color:#023430;
+    float: left;
+}
+.white{
+    width: 100%;
+    height: 400px;
+    border-top-left-radius: 200px;
+    background-color: white;
+}
+
+.greennew{
+    width: 50px;
+    height: 25px;
+    background-color: #B1FF05;
+    border-radius: 5px;
+    border: 0px;
+    color: #023430;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.learnmore{
+    background-color: transparent;
+    border: none;
+}
+
+.learnmoretext{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.learnmore :hover{
+    color: #00ED64;
+}
+
+.hometopleft{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.hometoplefttext{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.buildfaster{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.getyourideas_text{
+    font-size: 20px;
+    color: #b8c4c2;
+    line-height: 30px;
+}
+
+.startfreebtn{
+    width: 120px;
+    height: 50px;
+    background-color: #00ED64;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.homecontent{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*-----------------------------------------------------------------Clients---------------------------------------------*/
+
+.trustedby{
+   color: #00684a;
+   font-size: 12px;
+   font-weight: bold;
+   letter-spacing: 4px;
+   font-family: sans-serif;
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+.clientslogo{
+    justify-content: space-around;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 150px;
+}
+
+.reinventbg{
+    background-color: #023430;
+    border-radius: 100px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reinventimg{
+    height: 400px;
+    width: 700px;
+    padding-top: 60px;
+}
+
+.date{
+    color: #00ED64;
+    padding-top: 80px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.reinventh2{
+    color: white;
+    font-size: 35px;
+}
+
+/*------------------------------Working with data doesn’t need to be hard------------------------------- */
+
+.working_with_data{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.working_with_text{
+    text-align: center;
+    color: #001e2b;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+.our_guiding{
+    font-size: 20px;
+    color: #5d6c74;
+    line-height: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.advantages_grid{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     width: 100%;
+}
+
+.grid_content{
+    text-align: center;
+    padding: 25px;
+}
+
+.grid_content h3{
+    color: 001e2b;
+    font-size: 24px;
+}
+
+.grid_content p{
+    line-height: 24px;
+    color: #5d6c74;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------Fully managed in the cloud------------------------------------ */
+.BGFullymanaged{
+    width: 100%;
+    height: 700px;
+    margin-top: 300px;
+    display: flex;
+}
+
+
+.BGFullymanaged .pinkbg{
+    background-color: #F9EBFF;
+    border-top-right-radius: 300px;
+    width: 25%;
+    height: 950px;
+
+}
+
+.BGFullymanaged .topsection_head{
+    width: 75%;
+    height: 1000px;
+}
+
+.BGFullymanaged .topsection_head .title{
+    padding-right: 300px;
+}
+
+.boxcontent{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.boxcontent .box1{
+    width: 850px;
+    height: 550px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    margin-left: -300px;
+    padding-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxcontent .box2{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxcontent .atlas{
+    color: #00684a;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-family: monospace;
+    padding-top: 50px;
+}
+
+.boxcontent .boxtitle{
+    color: #001e2b;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.boxcontent .text{
+    padding-top: 2px;
+    color: #5d6c74;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.boxcontent .learnmoretext{
+    color: #001e2b;
+}
+
+.boxcontent .learnmore :hover{
+    color: #00684a;
+}
+
+.boxcontent .img{
+    width: 50%;
+    height: 100%;
+    background-image: url(Images/multicloud.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------------------------- Self-managed in any environment ------------------------------------ */
+
+.BGselfManaged{
+    width: 100%;
+    height: 800px;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.BGselfManaged .pinkbg{
+    width: 100%;
+    height: 800px;
+    background-color: #F9EBFF;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    display: flex;
+}
+
+.BGselfManaged .whitebg{
+    margin-top: 60px;
+    width: 50%;
+    height: 900px;
+    background-color: white;
+    border-top-right-radius: 250px;
+}
+
+.BGselfManaged .pinkbg .title{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.BGselfManaged .box{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    padding-top: 70px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+.BGselfManaged .pinkbg .selfmanagedcontent .boxcontent{
+    justify-content: space-around;
+}
+
+/* ----------------------------Built by developers-----------------------------------------*/
+
+.BGBuiltbydevelopers{
+    width: 100%;
+    height: 1150px;
+    background-color: #001e2b;
+    margin-top: 250px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-top: 100px;
+}
+
+.BGBuiltbydevelopers .top{
+    padding-left: 50px;
+}
+
+.viewdocbtn{
+    width: 200px;
+    height: 50px;
+    background-color: #00ED64;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.viewdocbtn:hover{
+    border-radius: 50px;
+}
+
+.BGBuiltbydevelopers .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.BGBuiltbydevelopers .left{
+    width: 40%;
+    padding-left: 50px;
+}
+
+.BGBuiltbydevelopers h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.BGBuiltbydevelopers .right{
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.BGBuiltbydevelopers .plusicon{
+    width: 50px;
+    height: 50px;
+    filter: invert(62%) sepia(100%) saturate(1454%) hue-rotate(93deg) brightness(102%) contrast(101%);
+}
+
+.BGBuiltbydevelopers .plusicon:hover{
+    transform: rotate(45deg);
+}
+
+.BGBuiltbydevelopers .left .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.BGBuiltbydevelopers .left hr{
+    color: #5d6c74;
+    height: 1px;
+    border-width:0;
+    background-color:#5d6c74
+}
+
+.BGBuiltbydevelopers .right .buttons{
+    display: flex;
+    margin-top: -80px;
+}
+
+.BGBuiltbydevelopers .right .buttons .selected{
+    padding: 10px 20px;
+    background-color: #006CFA;
+    border: 0px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.BGBuiltbydevelopers .right .buttons .selected:hover{
+    border: 1px solid  #006CFA;
+}
+
+.BGBuiltbydevelopers .right .buttons .nonselected{
+    padding: 10px 20px;
+    background-color: #21313C;
+    border: 0px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.BGBuiltbydevelopers .right .nonselected:hover{
+    background-color: #21313C;
+    border: 1px solid  #006CFA;
+}
+
+.BGBuiltbydevelopers .right .buttons a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.codeblock{
+    display: flex;
+    padding-top: 20px;
+}
+.codeblock .num{
+    width: 50px;
+    height: 600px;
+    background-color: #21313C;
+    border-bottom-left-radius: 50px;
+}
+
+.codeblock .code{
+    width: 800px;
+    height: 600px;
+    background-color: #061621;
+    border-bottom-right-radius: 50px;
+}
+
+.codeblock .num p{
+    font-size: 16px;
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.codeblock .code p{
+    font-size: 16px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+.codeblock .code img{
+    padding-left: 650px;
+    padding-top: 120px;
+    cursor: pointer;
+}
+
+/* -------------------------Data solutions tailoredfor your business--------------------------------------------------------------- */
+
+.DataSolutions{
+    width: 100%;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.DataSolutions .pinkbg{
+    margin-left: 52%;
+    width: 48%;
+    height: 900px;
+    background-color: #F9EBFF;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+.DataSolutions .title{
+    margin-left: -900px;
+}
+
+.DataSolutionscontent{
+    width: 200%;
+    height: 600px;
+    margin-left: -100%;
+    display: flex;
+    margin-top: -20px;
+}
+
+.DataSolutionscontent .left{
+    width: 70%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.DataSolutionscontent .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.DataSolutionscontent .right img{
+    margin-top: -100px;
+    margin-left: -250px;
+    width: 90%;
+}
+
+.DataSolutionscontent .left .fs{
+    color: #00684a;
+}
+
+.DataSolutionscontent .left .derisk{
+    color: #001e2b;
+}
+
+.DataSolutionscontent .left .Iterative{
+    color: #5d6c74;
+}
+.DataSolutionscontent .left .startfreebtn{
+    border:1px solid #001e2b;
+}
+
+.DataSolutionscontent .left .startfreebtn:hover{
+    border-radius: 25px;
+}
+
+
+/* ---------------------------------------Use cases & Industries------------------------------------------ */
+
+.BGuseandind{
+    width: 100%;
+    height: 515px;
+    background-color: #F9EBFF;
+}
+
+.BGuseandind .pinkbg{
+    width: 90%;
+    height: 515px;
+    background-color:white;
+    border-top-right-radius: 360px;
+
+}
+
+.BGuseandind .pinkbg .boxcontent{
+    width: 105%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.BGuseandind .pinkbg .boxcontent .box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 350px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    padding: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.BGuseandind .pinkbg .boxcontent img{
+    width: 300px;
+}
+
+.BGuseandind .boxcontent .boxtitle{
+    color: #001e2b;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.BGuseandind .boxcontent .text{
+    padding-top: 2px;
+    color: #5d6c74;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.BGtoyotaAndSmart{
+    width: 90%;
+    height: 500px;
+    margin-top: 100px;
+    padding: 0px 5%;
+    display: flex;
+}
+
+
+.BGtoyotaAndSmart .left{
+    background-color: #00684A;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.BGtoyotaAndSmart .right{
+    width: 1200px;
+    height: 550px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    margin-left: -300px;
+    padding-top: 70px;
+    padding-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+    margin-top: 75px;
+}
+
+.BGtoyotaAndSmart .content{
+    width: 90%;
+    height: 95%;
+}
+
+.BGtoyotaAndSmart .content .smallfactory{
+    color: #014e3d;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.BGtoyotaAndSmart .content .head{
+    line-height: 48px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001e2b;
+    font-weight: 400;
+}
+
+.BGtoyotaAndSmart .content .text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #014e3d;
+    line-height: 32px;
+    padding-top: 50px;
+}
+
+.BGtoyotaAndSmart .content .readbtn{
+    background-color: transparent;
+    border: 0;
+    padding-left: 0;
+}
+
+.BGtoyotaAndSmart .content .btntx{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #21313C;
+}
+
+.BGtoyotaAndSmart .content .btntx:hover{
+    color: #00684A;
+
+}
+
+.BGtoyotaAndSmart .content .arrow{
+    background-color: transparent;
+    border:2px solid #001e2b;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.BGtoyotaAndSmart .content .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.ready_toget_started{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 552px;
+    background-color: #023430;
+    margin-top: 250px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-top:  100px; ;
+}
+.ready_toget_started .left{
+    padding-top: 100px;
+    width: 40%;
+}
+
+.ready_toget_started .left .startfreebtn:hover{
+    border-radius: 50px;
+}
+
+.ready_toget_started .right{
+    width: 30%;
+}
+
+/*-----------------------------------------------Footer------------------------------------------------*/
+
+.footer{
+    width: 100%;
+    height: 568px;
+    background-color: #061621;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .content{
+    width: 70%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 5px;
+}
+
+.footer .signature{
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    color: #5d6c74;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 100px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.grid_1{
+    padding: 50px;
+}
+
+.footer .grid_1 button{
+    background-color: transparent;
+    border: 0;
+}
+
+.footer .grid_1 button img{
+    padding-top: 10px;
+}
+
+.footer .grid_1 select{
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer .grid_1 option{
+    background-color: #21313C;
+    color: white;
+    width: 250px;
+    height: 500px;
+}
+
+.footerlogo{
+    width: 200px;
+    filter:invert(77%) sepia(0%) saturate(0) hue-rotate(97deg) brightness(106%) contrast(87%);
+}
+
+.footer ul{
+    list-style: none;
+    color: white;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+.grid_2 .listicon{
+    padding-right: 20px;
+}
